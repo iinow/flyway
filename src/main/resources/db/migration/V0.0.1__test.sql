@@ -1,0 +1,7 @@
+--init
+
+CREATE TABLE `test` (
+  `id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `content` TEXT NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE = InnoDB;
